@@ -30,4 +30,22 @@ To register a user, `POST` the following JSON to the `/users/registration` endpo
 }
 ```
 
+__NOTE:__ Passwords should always be hashed when persisting to a database. I persist the passwords to an in-memory database that is erased at the end of the servers session, however, still be very cautious with the passwords you store in the in-memory database.
+
+## In-Memory SQL Database
+I used H2 for the in-memory database. To access it go to:
+http://localhost:8888/h2-console
+
+__Credentials__:
+
+Username: `sa`
+
+Password: `password`
+
+In this database, you can access all the data that was persisted in the current session.
+
+**ALL DATA WILL BE ERASED WHEN THE SERVER IS STOPPED**
+
+----------------------------------------------------------
+
 Happy registering!

@@ -2,6 +2,8 @@
 
 This service is meant to act as an example REST API.
 
+**App CORS allows http://localhost:4200 to access.**
+
 To run from source code:
 ```bash
 git clone https://github.com/leandroyabut/simple-registration-service.git

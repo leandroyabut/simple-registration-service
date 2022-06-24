@@ -44,6 +44,8 @@ Username: `sa`
 
 Password: `password`
 
+JDBC URL: `jdbc:h2:mem:testdb`
+
 In this database, you can access all the data that was persisted in the current session.
 
 **ALL DATA WILL BE ERASED WHEN THE SERVER IS STOPPED**
